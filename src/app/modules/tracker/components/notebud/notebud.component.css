@@ -10,8 +10,19 @@
   margin: 0.25em 0;
   border-radius: 0.5em;
   background: skyblue;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .notebud-content {
   padding-left: 1em;
+  pointer-events: none;
+  user-select: none;
+}
+
+.size-control {
+  width: 10px;
+  background: green;
+  cursor: col-resize;
 }
